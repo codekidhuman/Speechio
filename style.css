@@ -1,0 +1,53 @@
+#SpeechtoText
+{
+    color: red;
+    width: 100%;
+}
+#TexttoSpeech
+{
+    color: black;
+    width: 100%;
+}
+#microphone
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(76, 66, 66);
+}
+#status
+{
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+img
+{
+    width: 80px;
+    height: 80px; 
+}
+#speak
+{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aqua;
+    color: rgb(45, 45, 45);
+    margin-left: 10px;
+}
+#footer
+{
+    bottom: 0;
+    position: fixed;
+    background-color: wheat;
+    color: rgb(109, 83, 33);
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+#title
+{
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    color: green;
+}

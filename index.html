@@ -1,0 +1,43 @@
+<html>
+    <head>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<title>Speechio</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <b id="title">SPEECHIO</b>
+        <h2>SPEECH TO TEXT</h2>
+        <br>
+   
+        <div id="SpeechtoText" class="btn btn-info">
+        <h3>Press the button to start listening</h3>
+        <h3 id="status">...</h3><button id="microphone" class="btn btn-danger" onclick="start()"><img id="micimage" src="turn-microphone-off-button.png"></button>
+        </div>
+        <div id="result">
+            <p></p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h2>TEXT TO SPEECH</h2>
+        <br>
+        <div id="TexttoSpeech" class="btn btn-success">
+            <h3>Type what you want to say in the text box</h3>
+            <input id="input" type="text">
+            <button id="speak" onclick="speak()">Speak</button>
+        </div>
+    </center>
+    <div id="footer">
+<h4>Made by Steve Eldho</h3>
+    </div>
+    </body>
+</html>
